@@ -5,6 +5,7 @@
 html, body {
      min-height: 100%;
      color: #1e1e1e;
+     margin: auto;
 }
 
 html {
@@ -50,7 +51,17 @@ a:hover{
     width: 350px;
 }
 
+
+.icon-nav{
+    margin-left: 10px;
+}
+
+.icon-nav:hover{
+    filter: invert(90%);
+}
+
 .navbar{
+    background-image: url("../img/croquis.png");
     background-color: #c31529;
     font-size: 20px;
 }
@@ -58,11 +69,13 @@ a:hover{
 .navbar-nav > li{
   padding-left:20px;
   padding-right:20px;
+  margin-right: 50px;
 }
 
 .nav-item:hover{
-    background-color: black;
-    border-radius: 10px;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    height: 100%;
 }
 
 .navbar{
@@ -95,6 +108,11 @@ a:hover{
 
 .img-menu{
     width: 100%;
+    filter: grayscale(100%);
+}
+
+.img-menu:hover{
+    filter: grayscale(0%);
 }
 
 .real-mexican{
@@ -112,6 +130,14 @@ a:hover{
     text-align: center;
 }
 
+.img-insta{
+    width: 99.5%;
+}
+
+.img-insta:hover{
+    width: 100%;
+}
+
 .catering{
     background-color: white;
 }
@@ -127,8 +153,7 @@ a:hover{
 }
 
 .footer{
-    margin-top: -4rem;
-    background-color: #1e1e1e;
+        background-color: #1e1e1e;
     color: white;
     font-size: 20px;
     height: fit-content;
