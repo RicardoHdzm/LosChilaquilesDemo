@@ -1,0 +1,138 @@
+*{
+    font-family: Montserrat;
+}
+
+html, body {
+     min-height: 100%;
+     color: #1e1e1e;
+}
+
+ h1{
+    font-weight: 900;
+    font-size: 70px;
+ }
+
+h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+p{
+    font-weight: 400;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: lightgray;
+}
+
+
+.header-box{
+    text-align: center;
+    background-color: white;
+    height: fit-content;
+
+}
+
+.logo{
+    width: 350px;
+}
+
+.navbar{
+    background-color: #c31529;
+    font-size: 20px;
+}
+
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+
+.front-page{
+    color: white;
+    text-align: center;
+    background-image: url("../img/ChilloutKillLess.png");
+    background-position: right;
+    background-size: cover;
+}
+
+.about-us{
+    color: white;
+    text-align: center;
+    background-image: url("../img/Aboutus.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin-top: -.2rem;
+}
+
+.menu{
+    color: white;
+    height: fit-content;
+}
+
+.img-menu{
+    width: 100%;
+}
+
+.real-mexican{
+    color: white;
+    text-align: center;
+    background-image: url("../img/Therealmexicantaste.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+
+}
+
+.insta{
+    background-color: white;
+    text-align: center;
+}
+
+.catering{
+    background-color: white;
+}
+
+.contact{
+    color: white;
+    text-align: center;
+    background-image: url("../img/croquis.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: fit-content;
+}
+
+.footer{
+    margin-top: -4rem;
+    background-color: #1e1e1e;
+    color: white;
+    font-size: 20px;
+    height: fit-content;
+    text-align: center;
+}
+
+.border-red{
+    height: 1rem;
+    background-color: #c31529;
+}
+
+.border-black{
+    height: 1rem;
+    background-color: #1e1e1e;
+}
+
+.social-icon{
+    width: 50px;
+    display: inline;
+}
