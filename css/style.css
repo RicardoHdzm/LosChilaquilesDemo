@@ -102,12 +102,14 @@ a:hover{
 }
 
 .menu{
-    color: white;
+    color: #1e1e1e;
     height: fit-content;
+    text-align: center;
+
 }
 
+
 .img-menu{
-    width: 100%;
     filter: grayscale(100%);
 }
 
