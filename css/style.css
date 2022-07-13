@@ -61,10 +61,12 @@ a:hover{
 }
 
 .navbar{
-    background-image: url("../img/croquis.png");
     background-color: #c31529;
     font-size: 20px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
+
 
 .navbar-nav > li{
   padding-left:20px;
@@ -74,8 +76,6 @@ a:hover{
 
 .nav-item:hover{
     background-color: #1e1e1e;
-    border-radius: 5px;
-    height: 100%;
 }
 
 .navbar{
@@ -175,4 +175,14 @@ a:hover{
 .social-icon{
     width: 50px;
     display: inline;
+}
+
+
+
+@media only screen and (max-width:640px){
+    .navbar{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+
+    }
 }
